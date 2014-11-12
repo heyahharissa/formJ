@@ -1,0 +1,12 @@
+main {
+  margin: 5% auto;
+  width: 500px;
+}
+
+.error {
+  color: red;
+
+  ::before {
+  content: "***";
+  }
+}
